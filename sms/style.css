@@ -1,0 +1,172 @@
+*{padding: 0;
+margin: 0%;}
+
+
+
+nav{position:flexed;
+background-color: rgb(138, 34, 15);
+height:70px;
+width: 100%;
+z-index: 1;}
+
+.logo{ font-size: 25px0;
+position:relative;
+left: 5%;
+color:white;
+font-weight: bold;
+line-height: 70px;
+}
+
+ul{
+    position:relative;
+    float:right;
+    margin-right:20px;
+}
+
+ul li{
+    display:inline-block;
+    line-height:70px;
+    margin: 0 5px
+}
+
+ul li a {
+    text-decoration:none;
+    color:white;
+    font-size:17;
+}
+
+.Home2.png{
+    width: 100%;
+    height: 300px;
+
+}
+
+.section1{
+    padding-top: 70px;
+    width: 100%;
+}
+
+.full-width-image {
+    width: 100%;
+      
+}
+
+
+.institute_name{
+    position:absolute;
+    top: 20%;
+    left:30%;
+    color:white;
+    background-color:midnightblue;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+
+}
+.Home1_img{
+    width: 100%;
+    min-height: 20px;
+}
+
+.container{
+    padding-top:10px;
+}
+
+.teacher{
+    width:90%;
+    height:200px;
+}
+
+.contact-section {
+    background-image:url("img/contact_back.png"); 
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.contact-details {
+    background-color: rgba(0, 0, 0, 0.5);  
+    padding: 20px;
+    display: inline-block;
+}
+
+.contact-details h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.footer{
+    background-color: rgb(29, 32, 34);
+    width: 100%;
+    height:70px;
+}
+
+.Lform_design{
+    padding-top: 200px;
+}
+
+.label_deg{
+    font-display: inline-block;
+    Color:skyblue;
+    width: 100px;
+    text-align:right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login-form{
+    background-color:rgb(20, 85, 49);
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+
+}
+
+.title_deg{
+    
+    color: black;
+    text-align: center;
+    font: bold;
+    width: 500px;
+    font-size: 20px;
+    padding-top:10px;
+
+}
+    
+    
+.body_deg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    align-items: center;
+   justify-content: center;  
+    display: flex;
+}
+.footer {
+    text-align:center;
+    padding-top: 10px;
+    height:5%;
+}
+.footer h3 {
+
+    font-size: inherit;       
+    margin: 0;               
+    font-weight: normal;    
+}
+.btn btn-primary{
+    padding: 10px;
+    display:block;
+    width: 100%;
+}
